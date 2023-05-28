@@ -1,0 +1,1 @@
+import{i as o,c as a,t as r}from"./index-8947fbed.js";import{N as s}from"./Navbar-504aef4c.js";const n=r('<div><div class="bg-black h-screen flex flex-col"><text class="font-manrope font-bold text-orange-700 mx-auto text-5xl pt-20">Contact Us'),m=()=>(()=>{const t=n(),e=t.firstChild;return o(t,a(s,{}),e),t})();export{m as default};
