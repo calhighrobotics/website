@@ -9,12 +9,12 @@ const message = "By the time the students finish the camp, they will have learne
 
 const Events: Component = () => {
   return (
-    <div>
+    <div class="bg-black">
       <Navbar></Navbar>
-        <div class="bg-black h-screen flex flex-col w-full "> 
-          <text class="font-manrope font-bold text-orange-700 mx-auto text-5xl pt-20">Events</text>
-          <text class="font-manrope font-bold text-white mx-auto text-2xl pt-5">Summer Camp</text>
-          <img src={scamp} class="h-[78%] w-[32%] mx-auto"></img>
+        <div class="bg-black h-screen flex flex-col w-full overflow-auto "> 
+          <text class="font-manrope font-bold text-orange-600 mx-auto text-5xl pt-20 whitespace-normal">Events</text>
+          <text class="font-manrope font-bold text-white mx-auto text-2xl pt-5 whitespace-normal">Summer Camp</text>
+          <img src={scamp} class="h-[50rem] mx-auto"></img>
         </div>
     </div>
   )

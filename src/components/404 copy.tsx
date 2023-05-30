@@ -13,13 +13,13 @@ const Teams: Component = () => {
       <Navbar></Navbar>
       <section class="bg-black h-screen w-full">
         <div class="bg-black h-screen  flex"> 
-          <text class="font-manrope font-bold text-orange-700 m-auto text-9xl">Team 1516</text>
+          <text class="font-manrope font-bold text-orange-600 m-auto text-9xl">Team 1516</text>
           
         </div>
       </section>
       <section class="bg-black h-screen  w-full">
         <div class="bg-black h-screen flex"> 
-          <text class="font-manrope font-bold text-orange-700 m-auto text-9xl">Team 1516</text>
+          <text class="font-manrope font-bold text-orange-600 m-auto text-9xl">Team 1516</text>
           
         </div>
       </section>

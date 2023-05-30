@@ -4,6 +4,8 @@ const Home = lazy(() => import("./components/Home"));
 const Teams = lazy(() => import("./components/Teams"));
 const Events = lazy(() => import("./components/Events"));
 const Contact = lazy(() => import("./components/Contact"));
+const Sponsors = lazy(() => import("./components/Sponsors"));
+const FormSubmitted = lazy(() => import("./components/FormSubmitted"));
 import { Route, Routes } from '@solidjs/router';
 
 
@@ -25,6 +27,14 @@ const App: Component = () => {
       <Route
         path="/contact"
         component={Contact}
+      />
+      <Route
+        path="/sponsor"
+        component={Sponsors}
+      />
+      <Route
+        path="/formsubmitted"
+        component={FormSubmitted}
       />
     </Routes>
   </>

@@ -20,8 +20,11 @@
   },
   "dependencies": {
     "@solidjs/router": "^0.8.2",
+    "flowbite": "^1.6.5",
     "solid-js": "^1.6.10",
+    "solid-start": "^0.2.26",
     "solid-transition-group": "^0.2.2",
+    "solidjs-storex": "^1.0.4",
     "vite-plugin-static-copy": "^0.15.0"
   }
 }

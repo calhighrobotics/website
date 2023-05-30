@@ -1,10 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/**/*.{js,jsx,ts,tsx}"],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
         manrope: ["Manrope", "sans-serif"],
+      },
+      fontSize: {
+        xs: "0.75rem",
+        sm: "0.875rem",
+        base: "1rem",
+        lg: "1.125rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "4xl": "2.25rem",
+        "5xl": "3rem",
+        "6xl": "4rem",
+        "7xl": "5rem",
+        "8xl": "6rem",
+        "9xl": "9rem",
       },
       animation: {
         cursor: "cursor .6s linear infinite alternate",
@@ -23,10 +39,10 @@ module.exports = {
           "65%, 70%": { width: "7ch" },
           "75%, 80%": { width: "8ch" },
           "85%, 90%": { width: "9ch" },
-          "95%": { width: "10ch" },
+          "95%": { width: "10ch" }
         },
       },
     },
   },
-  plugins: [],
+  plugins: [require('flowbite/plugin')],
 };
