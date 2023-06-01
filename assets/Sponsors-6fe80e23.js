@@ -1,1 +1,0 @@
-import{i as o,c as a,t as r}from"./index-a1ce661e.js";import{N as s}from"./Navbar-806da1d0.js";const n=r('<div><div class="bg-black h-screen flex flex-col"><text class="font-manrope font-bold text-orange-600 mx-auto text-5xl pt-20 glowOrange">Sponsors'),m=()=>(()=>{const t=n(),e=t.firstChild;return o(t,a(s,{}),e),t})();export{m as default};
