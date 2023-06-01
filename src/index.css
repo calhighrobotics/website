@@ -27,6 +27,9 @@ html {
   .coolw {
     width: 90%;
   }
+  .expandh {
+    height: 100vh
+  }
 }
 
 @media (min-aspect-ratio: 1/1) {
@@ -35,6 +38,9 @@ html {
   }
   .coolw {
     width: calc(57% + 2.5rem);
+  }
+  .expandh {
+    height: 100%
   }
 }
 
