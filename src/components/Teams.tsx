@@ -47,7 +47,7 @@ const Teams: Component = () => {
           <p class="font-manrope font-bold text-white mx-auto pl-5 text-xl break-normal text-ellipsis whitespace-normal text-center">California High School Fightin' Grizzlies Robotics competes in the VEX universe. Initially started by a group of highschoolers in 2005, Cal High competed in FIRST robotics. We won regionals in 2007, but later switched into VEX in 2012. Now, we have made a name for ourselves with outstanding design</p>
           <div class="flex flex-row w-full pt-5"> 
             <Team name="Team 1516A" image={teama} members={["Alejandro", "Sachit", "Sushrut", "Yashica"]} achievements={["Made it to states in VRC Tipping Point 21-22", "Made it to states in VRC Spin Up 21-22"]}></Team>
-            <Team name="Team 1516B" image={teamb} members={["Jason", "Kadon", "Prisha", "Xinrong"]} achievements={["Made it to states in VRC Tipping Point 21-22", "Made it to states in VRC Spin Up 21-22"]}></Team>
+            <Team name="Team 1516B" image={teamb} members={["Jason", "Aswath", "Prisha", "Xinrong", "Avery", "Aditya", "Alex"]} achievements={["Made it to states in VRC Tipping Point 21-22", "Made it to states in VRC Spin Up 21-22"]}></Team>
           </div>
         </div>
       </div>
