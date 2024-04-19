@@ -6,6 +6,7 @@ const Events = lazy(() => import("./components/Events"));
 const Contact = lazy(() => import("./components/Contact"));
 const Sponsors = lazy(() => import("./components/Sponsors"));
 const FormSubmitted = lazy(() => import("./components/FormSubmitted"));
+const SummerCamp = lazy(() => import("./components/SummerCamp"));
 const Apply = lazy(() => import("./components/Apply"));
 import { Navigate, Route, Routes } from '@solidjs/router';
 
@@ -40,6 +41,10 @@ const App: Component = () => {
       <Route
         path="/apply"
         component={Apply}
+      />
+      <Route
+        path="/camp2024"
+        component={SummerCamp}
       />
     </Routes>
   </>
