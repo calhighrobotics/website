@@ -8,7 +8,7 @@ import Navbar from './Navbar';
 
 
 const Apply: Component = () => {
-  window.location.href = "https://forms.gle/tDPjzFRdVoFTE5wY7"
+  window.location.href = "https://forms.gle/RMvUMrdp2HVoj4yu8"
   
   return (
     
