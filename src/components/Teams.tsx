@@ -2,7 +2,7 @@ import type { Component } from 'solid-js';
 
 import logo from '../roboticslogo.png';
 import teama from "../assets/teama.png"
-import teamb from "../assets/teamb.png"
+import teamb from "../assets/teamx.jpg"
 import '../App.module.css';
 import Navbar from './Navbar';
 
