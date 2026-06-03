@@ -1,1 +1,0 @@
-import{t}from"./index-9a816c0c.js";const e=t('<div><div class="bg-black h-screen flex"><text class="font-manrope font-bold text-orange-600 m-auto text-9xl">Redirecting...'),l=()=>(window.location.href="https://forms.gle/KHHQuyLJrpzEt5Ad9",e());export{l as default};
