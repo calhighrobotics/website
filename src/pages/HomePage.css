@@ -1,0 +1,98 @@
+.home-page { overflow: clip; background: var(--paper); }
+.home-hero :focus-visible, .home-programs :focus-visible, .home-legacy :focus-visible { outline-color: var(--orange-ink); }
+.home-hero { padding-top: calc(var(--header-height) + 64px); padding-bottom: 42px; color: var(--ink); }
+.home-hero__layout { display: grid; grid-template-columns: .8fr 1.2fr; align-items: center; gap: clamp(35px, 5vw, 90px); }
+.home-hero__copy .eyebrow { font-size: 10px; letter-spacing: .08em; margin-bottom: 25px; }
+.home-hero__copy h1 { font-family: var(--font-display); font-size: clamp(88px, 9vw, 144px); font-weight: 700; line-height: .88; letter-spacing: -.025em; }
+.home-hero__copy h1 span { color: var(--orange-ink); }
+.home-hero__copy > p:not(.eyebrow) { max-width: 390px; margin-top: 25px; font-size: 14px; line-height: 1.85; color: #4f5049; }
+.home-hero__paths { display: flex; align-items: flex-start; flex-direction: column; gap: 12px; margin-top: 26px; }
+.home-primary-link { display: inline-flex; justify-content: space-between; align-items: center; gap: 35px; min-height: 51px; padding: 13px 21px; background: var(--orange); color: var(--ink); font-size: 12px; font-weight: 800; transition: background 200ms; }
+.home-primary-link:hover { background: #df5514; }
+.home-primary-link svg, .home-simple-link svg { width: 19px; height: 19px; transition: transform 220ms; }
+.home-primary-link:hover svg, .home-simple-link:hover svg { transform: translateX(4px); }
+.home-simple-link { display: inline-flex; align-items: center; justify-content: space-between; gap: 23px; min-height: 42px; font-size: 12px; font-weight: 800; }
+.home-simple-link:hover { color: var(--orange-ink); }
+.home-hero__photo, .home-programs__photo, .home-legacy__photo { margin: 0; }
+.home-hero__photo img { width: 100%; height: auto; aspect-ratio: 1.5; object-fit: cover; }
+.home-hero__photo figcaption { display: flex; justify-content: space-between; gap: 16px; padding-top: 13px; font-size: 9px; line-height: 1.5; color: var(--muted); }
+.home-hero__photo figcaption span:first-child { font-weight: 800; color: var(--ink); }
+.home-milestone { display: grid; grid-template-columns: .6fr 2fr auto; align-items: center; gap: 32px; margin-top: 50px; padding-block: 23px; border-block: 1px solid var(--line); }
+.home-milestone .eyebrow { font-size: 9px; }
+.home-milestone > p:nth-child(2) { max-width: 600px; font-size: 13px; line-height: 1.75; }
+.home-milestone .home-simple-link { font-size: 11px; white-space: nowrap; }
+.home-section-heading .eyebrow { margin-bottom: 17px; font-size: 10px; }
+.home-section-heading h2 { font-family: var(--font-display); font-size: clamp(48px, 5.2vw, 80px); line-height: .98; font-weight: 700; letter-spacing: -.015em; }
+.home-section-heading > p:last-child:not(.eyebrow) { margin-top: 16px; font-size: 13px; color: var(--muted); }
+.home-programs { padding-top: 45px; padding-bottom: 90px; }
+.home-programs__layout { display: grid; grid-template-columns: 1.15fr 1fr; gap: 65px; align-items: center; margin-top: 37px; }
+.home-programs__photo img { width: 100%; aspect-ratio: 1.33; object-fit: cover; }
+.home-programs__photo figcaption, .home-legacy__photo figcaption { padding-top: 12px; font-size: 10px; color: var(--muted); }
+.home-program-entry { padding-block: 28px; border-top: 1px solid var(--line); }
+.home-program-entry:last-child { border-bottom: 1px solid var(--line); }
+.home-program-entry__audience { font-size: 10px; font-weight: 700; color: var(--orange-ink); margin-bottom: 12px; }
+.home-program-entry h3 { font-size: clamp(25px, 2.4vw, 37px); font-weight: 800; letter-spacing: -.04em; }
+.home-program-entry > p:not(.home-program-entry__audience) { max-width: 440px; margin-top: 16px; font-size: 13px; line-height: 1.8; color: #56574f; }
+.home-program-entry .home-simple-link { margin-top: 12px; }
+.home-teams { padding-block: 75px 55px; background: var(--ink); color: var(--paper); }
+.home-teams__intro { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 70px; }
+.home-teams__intro > p { max-width: 410px; justify-self: end; font-size: 13px; line-height: 1.8; color: #b8b6ae; }
+.home-team-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; margin-top: 38px; }
+.home-team { padding-block: 28px 26px; border-top: 1px solid rgba(244,241,233,.24); }
+.home-team > .eyebrow { font-size: 9px; margin-bottom: 18px; }
+.home-team h3 { font-family: var(--font-display); font-size: clamp(60px, 6vw, 90px); font-weight: 700; letter-spacing: -.02em; }
+.home-team > p:not(.eyebrow) { max-width: 410px; margin-top: 14px; font-size: 13px; color: #b8b6ae; line-height: 1.8; }
+.home-team .home-simple-link { margin-top: 17px; }
+.home-upcoming { display: grid; grid-template-columns: 1fr 1fr auto; gap: 35px; align-items: center; padding-top: 30px; border-top: 1px solid rgba(244,241,233,.24); }
+.home-upcoming .eyebrow { font-size: 9px; margin-bottom: 12px; }
+.home-upcoming h3 { font-size: 21px; font-weight: 800; letter-spacing: -.035em; line-height: 1.3; }
+.home-upcoming > p { font-size: 12px; color: #b8b6ae; line-height: 1.8; }
+.home-teams .home-simple-link:hover { color: var(--orange); }
+.home-upcoming .home-simple-link { font-size: 11px; white-space: nowrap; }
+.home-legacy { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 80px; padding-block: 90px; }
+.home-legacy__photo img { width: 100%; aspect-ratio: 1.4; object-fit: cover; }
+.home-legacy__copy .eyebrow { margin-bottom: 20px; font-size: 10px; }
+.home-legacy__copy h2 { font-family: var(--font-display); font-size: clamp(54px, 5.3vw, 84px); font-weight: 700; line-height: .95; letter-spacing: -.015em; }
+.home-legacy__copy > p:not(.eyebrow) { max-width: 440px; margin-top: 23px; font-size: 13px; line-height: 1.85; color: #56574f; }
+.home-legacy__copy > p + p:not(.eyebrow) { margin-top: 13px; }
+.home-legacy__copy .home-simple-link { margin-top: 22px; }
+@media (max-width: 1050px) {
+  .home-hero__layout { gap: 35px; grid-template-columns: .9fr 1.1fr; }
+  .home-hero__copy h1 { font-size: 95px; }
+  .home-hero__copy > p:not(.eyebrow) { font-size: 13px; }
+  .home-hero__photo figcaption { flex-direction: column; gap: 3px; }
+  .home-programs__layout { gap: 36px; }
+  .home-legacy { gap: 45px; }
+}
+@media (max-width: 760px) {
+  .home-hero { padding-top: calc(var(--header-height) + 35px); padding-bottom: 20px; }
+  .home-hero__layout { grid-template-columns: 1fr; gap: 30px; }
+  .home-hero__copy .eyebrow { margin-bottom: 20px; font-size: 8px; }
+  .home-hero__copy h1 { font-size: clamp(78px, 17vw, 115px); }
+  .home-hero__copy > p:not(.eyebrow) { margin-top: 20px; font-size: 13px; }
+  .home-hero__paths { margin-top: 21px; flex-direction: row; flex-wrap: wrap; align-items: center; gap: 6px 24px; }
+  .home-primary-link { font-size: 11px; gap: 20px; min-height: 48px; padding-inline: 17px; }
+  .home-hero__paths .home-simple-link { font-size: 10px; gap: 10px; }
+  .home-hero__photo figcaption { font-size: 9px; }
+  .home-milestone { grid-template-columns: 1fr; gap: 10px; margin-top: 28px; padding-block: 22px; }
+  .home-milestone > p:nth-child(2) { font-size: 12px; }
+  .home-milestone .home-simple-link { justify-self: start; }
+  .home-section-heading h2 { font-size: clamp(45px, 10vw, 66px); }
+  .home-section-heading .eyebrow { font-size: 9px; }
+  .home-section-heading > p:last-child:not(.eyebrow) { font-size: 12px; }
+  .home-programs { padding-top: 35px; padding-bottom: 55px; }
+  .home-programs__layout { grid-template-columns: 1fr; gap: 26px; margin-top: 26px; }
+  .home-program-entry { padding-block: 25px; }
+  .home-program-entry h3 { font-size: 29px; }
+  .home-program-entry > p:not(.home-program-entry__audience) { font-size: 13px; }
+  .home-teams { padding-block: 50px 40px; }
+  .home-teams__intro { grid-template-columns: 1fr; gap: 22px; }
+  .home-teams__intro > p { justify-self: start; font-size: 13px; }
+  .home-team-grid { grid-template-columns: 1fr; gap: 0; margin-top: 28px; }
+  .home-team { padding-block: 25px; }
+  .home-team h3 { font-size: 69px; }
+  .home-upcoming { grid-template-columns: 1fr; gap: 18px; padding-top: 26px; }
+  .home-upcoming .home-simple-link { justify-self: start; }
+  .home-legacy { grid-template-columns: 1fr; gap: 33px; padding-block: 55px; }
+  .home-legacy__copy h2 { font-size: 60px; }
+}

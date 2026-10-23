@@ -1,0 +1,45 @@
+CAL HIGH ROBOTICS — DRAFT VALIDATION
+Checked October 15, 2026
+
+Passed:
+- TypeScript strict type checking (npm run typecheck).
+- Production build (npm run build).
+- npm audit: zero reported vulnerabilities.
+- Git diff whitespace check using the repository's configured line-ending handling.
+- Seven main routes at desktop 1440x1000 and mobile 390x844: no page errors,
+  local HTTP failures, broken displayed images, or horizontal overflow.
+- Homepage contains no canvas or robot scene.
+- Three actual Cubs program photos load and retain descriptive captions.
+- Six newly integrated legacy archive photos load under the correct seasons.
+- All 31 award records preserved; 23 seasons, 16 with verified visual media.
+- 2006 FRC gap remains explicit and contains no substituted photograph.
+- Ambient 1516A film: autoplay, manual pause/resume, viewport lifecycle,
+  reduced-motion defaults; no initial video request with reduced motion.
+- Optional model stays collapsed and makes no model request before activation.
+- Earlier targeted model checks covered successful loading, bounded failures,
+  retry, cancellation, context loss, and decoder-worker disposal.
+- Original exposed contact token is absent from source, static files, and build.
+- Obsolete PDF.js viewer is absent from served source and production output.
+- Photo adjustments visually inspected in the page; original photo files preserved.
+- Restored Legacy scrolling: 23 stories, sticky left media at desktop widths,
+  correct active seasons in both scroll directions, and all 31 awards retained.
+- FRC-to-VEX chapter motion follows scroll on desktop and mobile; reduced-motion
+  mode retains a static, readable boundary. Short desktop 900x600 stays usable.
+- Keyboard Play/Tab/media selection remains stable in the sticky stage, and
+  changing the active season removes the previous YouTube player.
+- Passive robot cursor-follow and team-card hover tilt removed; explicit 3D
+  rotation and disposal verified separately after the cleanup.
+- Replacement film: 288 sequential frames, exactly 12 seconds at 24 fps,
+  uniform 3-degree/second camera arcs, and hard cuts at 4/8 seconds and looping.
+  All 990 robot body transforms remain fixed; the original Blender hash matches.
+- New film autoplay, pause/resume, constant playback rate, absent cursor response,
+  and reduced-motion zero-request default pass at desktop and mobile widths.
+
+Limits:
+- Browser verification used Chromium and mobile viewport emulation.
+- No physical phone, Safari, or full screen-reader conformance certification.
+- The lazy optional Three.js bundle triggers Vite's size warning; it is not part
+  of the homepage's initial loading path.
+- Some archival media is externally hosted; future source availability may change.
+- Seven seasons still lack a recovered, verified club photograph or match clip.
+- Public draft has not been pushed or deployed.

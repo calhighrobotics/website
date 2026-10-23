@@ -26,7 +26,7 @@ const Contact: Component = () => {
             Below is a document that contains information on how to sponsor us! 
           </p>
           <div class="pt-8"></div>
-          <iframe src="/web/viewer.html?file=sponsor.pdf" class="w-[min(90vh,90vw)] mx-auto inline-block aspect-[9/11.5]"></iframe>
+          <a href="/web/sponsor.pdf" target="_blank" rel="noopener noreferrer">Read the sponsorship packet (PDF)</a>
           <div class="pt-8"></div>
         </div>
     </div>

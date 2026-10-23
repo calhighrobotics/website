@@ -1,0 +1,14 @@
+.photo-color-definitions { position: absolute; width: 0; height: 0; overflow: hidden; pointer-events: none; }
+
+/* Photographs only: preserve logo colors, published posters, CAD drawings, and renders. */
+:where(img[src^="/club/"]:not([src$=".svg"]):not([src*="poster"]):not([src*="summer-camp-2026"]),
+.history-media-frame--photo > img) {
+  filter: url('#chs-photo-neutral');
+}
+img[src*="drive-camp-"]:not([src$=".svg"]),
+img[src*="drive-cubs-"]:not([src$=".svg"]) {
+  filter: url('#chs-photo-indoor');
+}
+img[src$="team-x-2026.webp"] {
+  filter: url('#chs-photo-worlds');
+}

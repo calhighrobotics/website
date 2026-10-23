@@ -1,0 +1,26 @@
+1516A BACKGROUND FILM — CAMERA CUTS
+
+The robot is stationary. The camera moves at a uniform angular speed within
+each shot, then cuts immediately to a different viewpoint. There is no
+turntable animation, easing, reversing, crossfade, or cursor response.
+
+Delivery: silent H.264 MP4, 1920x1080, 24 frames per second, 12 seconds.
+Three shots of 96 frames each. Cuts occur at 4 and 8 seconds; looping at
+12 seconds is another intentional hard cut.
+
+Camera paths:
+- Low front three-quarter: starts at 35 degrees azimuth, 14 degrees elevation.
+- Opposite side: starts at 135 degrees azimuth, 27 degrees elevation.
+- High rear three-quarter: starts at 245 degrees azimuth, 42 degrees elevation.
+- Every shot: fixed target and 2-metre radius, 3 degrees/second azimuth motion.
+- Every frame advances azimuth by 0.125 degrees. There are no repeated or
+  reversed frames in the source sequence.
+
+The corrected original club CAD/material scene is used. Its 990 visible bodies
+keep their transforms and mechanism state. Matte rubber rollers, brushed
+aluminum, and the corrected Brain display orientation are retained. The
+original Blender file is not overwritten.
+
+The film sits behind the team page's dark gradient. Pause/resume, offscreen
+pausing, reduced-motion and data-saving defaults remain available. The optional
+3D explorer changes view only through deliberate controls.
